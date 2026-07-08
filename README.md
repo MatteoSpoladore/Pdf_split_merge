@@ -1,48 +1,45 @@
-# PDF Manager: Split & Merge
+# 📄 PDF Manager
 
-A modern, lightweight Python desktop application built with `customtkinter` and `pypdf` to easily manipulate PDF files. The app allows you to split existing PDFs into individual pages or specific page ranges, and merge multiple PDFs together with custom reordering.
+> A sleek, modern, and lightweight desktop application to split, merge, and secure your PDF documents. Built with Python and a beautiful custom GUI.
 
-## Features
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square&logo=python)
+![GUI](https://img.shields.io/badge/GUI-CustomTkinter-success?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-orange?style=flat-square)
 
-- **Split PDF**:
-  - Extract every single page into separate PDF files.
-  - Extract specific page ranges using a Word-like syntax (e.g., `1, 3, 5-8`).
-- **Merge PDF**:
-  - Combine multiple PDF files into a single document.
-  - Easily reorder the sequence of the files before merging using an intuitive Up/Down control system.
-- **Modern UI**: Dark/Light mode support matching your system preferences thanks to CustomTkinter.
-
-## Prerequisites
-
-Make sure you have Python 3 installed on your system. You will need the following libraries:
-
-- `customtkinter` (for the graphical user interface)
-- `pypdf` (for PDF processing)
-
-## Installation
-
-1. Clone this repository or download the source code.
-2. Open your terminal or command prompt.
-3. Install the required dependencies by running:
-
-   ```bash
-   pip install customtkinter pypdf
-   ```
-
-## Usage
-
-Run the main Python script from your terminal:
-
-```bash
-python pdf_manager.py
-
-```
-
-1. Click on **SEPARA PDF** (Split) to select a file, define your page extraction rules, and save the output.
-2. Click on **UNISCI PDF** (Merge) to add multiple files, arrange their order, and combine them into a single PDF.
-
-## License
-
-This project is open-source and available under the MIT License.
+PDF Manager provides an intuitive, user-friendly interface to handle everyday PDF tasks without relying on cloud services. Your files stay local, fast, and secure.
 
 ---
+
+## ✨ Features
+
+- ✂️ **Split PDFs:** Extract every single page or specify custom ranges (e.g., `1, 3, 5-8`) to get exactly what you need.
+- 🔗 **Merge PDFs:** Combine multiple PDF files into a single, organized document. Drag, drop, and easily reorder files before merging.
+- 🔒 **Protect PDFs:** Secure your sensitive documents by encrypting them with a password. Features a built-in password visibility toggle for accurate typing.
+- 🔓 **Unlock PDFs:** Remove password protection from known encrypted files for easier access.
+- 🌍 **Smart Localization:** Automatically detects your system language, providing a native experience in **English** and **Italian**.
+- 🎨 **Modern UI:** A clean, responsive design that supports system-wide dark and light modes.
+
+---
+
+## 📸 Screenshots
+
+_(Replace these placeholders with actual screenshots of your application)_
+
+|                          Home Dashboard                           |                           Splitting a PDF                           |
+| :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| ![Home](https://via.placeholder.com/400x300.png?text=Home+Screen) | ![Split](https://via.placeholder.com/400x300.png?text=Split+Screen) |
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+
+Ensure you have [Python 3.8+](https://www.python.org/downloads/) installed on your system.
+
+### 1. Clone the repository
+
+```bash
+git clone [https://github.com/YourUsername/PDF-Manager.git](https://github.com/YourUsername/PDF-Manager.git)
+cd PDF-Manager
+```
