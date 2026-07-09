@@ -23,11 +23,9 @@ PDF Manager provides an intuitive, user-friendly interface to handle everyday PD
 
 ## 📸 Screenshots
 
-_(Replace these placeholders with actual screenshots of your application)_
-
-|                          Home Dashboard                           |                           Splitting a PDF                           |
-| :---------------------------------------------------------------: | :-----------------------------------------------------------------: |
-| ![Home](https://via.placeholder.com/400x300.png?text=Home+Screen) | ![Split](https://via.placeholder.com/400x300.png?text=Split+Screen) |
+|             Home Dashboard              |      Splitting a PDF       |
+| :-------------------------------------: | :------------------------: |
+| ![Home Dashboard](assets/dashboard.png) | ![Split](assets/split.png) |
 
 ---
 
