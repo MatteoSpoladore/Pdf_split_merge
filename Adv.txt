@@ -1,0 +1,39 @@
+======================================================================
+                 PDF MANAGER v1.0 - NOTES AND ADVISORIES
+======================================================================
+Developer: Matteo Spoladore
+Website: https://github.com/MatteoSpoladore
+Copyright (c) 2026 Matteo Spoladore
+
+Thank you for choosing PDF Manager, the desktop application for 
+managing, merging, and protecting your PDF files.
+
+----------------------------------------------------------------------
+1. PRE-INSTALLATION INFORMATION
+----------------------------------------------------------------------
+* Operating System: Windows 10 / Windows 11 (64-bit).
+* Dependencies: All necessary libraries (including the Python 
+  interpreter and internal modules) are already included in the 
+  package. No additional software downloads are required.
+
+----------------------------------------------------------------------
+2. PRIVACY AND SECURITY
+----------------------------------------------------------------------
+* Local Processing: PDF Manager processes your PDF documents 
+  exclusively and directly on your computer. 
+* No Cloud: Your sensitive files are never uploaded online or sent 
+  to external servers. The app works 100% offline.
+* License: The software is distributed under the open-source MIT 
+  license. (For more details, please refer to the License.txt file).
+
+----------------------------------------------------------------------
+3. POST-INSTALLATION NOTES (IMPORTANT)
+----------------------------------------------------------------------
+Because this program is compiled using PyInstaller, some antivirus 
+software may temporarily block its launch, flagging the executable 
+as suspicious. This is a very common "false positive". If this 
+happens, simply add PDFManager.exe to your antivirus exceptions list.
+
+For bug reports, feedback, or to contribute to the project, 
+please visit the official GitHub page.
+======================================================================

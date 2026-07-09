@@ -46,7 +46,7 @@ InfoAfterFile=.\Adv.txt
 PrivilegesRequiredOverridesAllowed=dialog
 OutputDir=.\InstallerOutput
 OutputBaseFilename=PDFManager_Setup
-SetupIconFile=.\icon.ico
+SetupIconFile=.\icon_white.ico
 
 ; Compressione migliorata per ridurre il peso del setup
 Compression=lzma2/ultra64
@@ -63,8 +63,8 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 ; Modifica i percorsi qui sotto puntando alla tua cartella generata da PyInstaller (es. dist/PDFManager)
 Source: ".\dist\PDFManager\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: ".\dist\PDFManager\_internal\*"; DestDir: "{app}\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\icon.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: ".\dist\PDFManager\_internal\*"; DestDir: "{app}\_internal"; Excludes: "*\tzdata\*, *\msgs\*, *\encoding\*"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: ".\icon_white.ico"; DestDir: "{app}"; Flags: ignoreversion
 
 [Registry]
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
